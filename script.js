@@ -4,7 +4,7 @@ document.body.innerHTML=`<div class="header">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBhg9HFW2YBD0-OLoHiEWvCmCQPZfqpls9w&usqp=CAU" width="75px" height="75px">
 </div>
 <div id="resultarea"></div>`;
-const url="https://cors-anywhere.herokuapp.com/http://makeup-api.herokuapp.com/api/v1/products.json";
+const url="https://makeup-api.herokuapp.com/api/v1/products.json";
 
 async function getBrands(){
     try{
